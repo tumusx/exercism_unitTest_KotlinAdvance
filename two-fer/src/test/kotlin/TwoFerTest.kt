@@ -5,7 +5,7 @@ class TwoFerTest {
 
     @Test
     fun noNameGiven() {
-        assertEquals("One for you, one for me.", twofer(null))
+        assertEquals("One for you, one for me.", twofer())
     }
 
     @Test
